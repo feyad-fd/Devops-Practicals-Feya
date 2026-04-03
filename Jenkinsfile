@@ -4,7 +4,7 @@ pipeline {
     stage('Build') {
       agent any
       steps {
-        sh 'echo "eee.."'
+        sh 'echo "Compiling Application..."'
       }
     }
 
